@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F7F8F5">
+    <ImageView
+        android:id="@+id/imgUser"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/user" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/txtName"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Miguel Angel"
+            android:textColor="#343434"
+            android:layout_marginTop="10dp"
+            android:typeface="normal"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtSurname"
+            android:text="Martin Hernandez"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+            android:textColor="#898a88" />
+        <TextView
+            android:id="@+id/txtDepartment"
+            android:text="Dev Team"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+            android:textColor="#898a88" />
+    </LinearLayout>
+</LinearLayout>
